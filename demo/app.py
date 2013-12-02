@@ -27,6 +27,8 @@ def setup_compilers(app):
 def create_app():
     app = Flask(__name__)
 
+    app.config['DEBUG'] = True
+
     gears.init_app(app)
     setup_compilers(app)
     
