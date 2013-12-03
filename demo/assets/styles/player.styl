@@ -3,7 +3,7 @@ body
     padding 0
 
     & #player-container
-        width 90%
+        width 85%
         padding auto
         margin 0 auto
         background #333
@@ -14,8 +14,22 @@ body
             margin 5px auto
 
         & #player-mask
-            border #000 solid 1px
-            background #fff
-            position absolute
             top 0
             left 0
+            position absolute
+            padding 60px 100px 60px 100px
+            border #000 solid 1px
+            background rgba(255, 255, 255, 0.9)
+
+            & .quetion
+                font-size 36px
+                margin 20px 0 20px 0
+
+            & .opts
+                text-align left
+                line-height 1.6em
+                & label
+                    font-size 20px
+
+            & .btns
+                float right
