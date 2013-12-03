@@ -2,6 +2,7 @@
     "name": "mooc",
     "version": "0.1",
     "dependencies": {
-        "jquery": "~1.10.2"
+        "jquery": "~1.10.2",
+        "bootstrap": "2.1.1"
     }
 }
